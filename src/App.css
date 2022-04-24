@@ -1,0 +1,75 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #1b1a1a;
+  color: white;
+}
+
+.App {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.App-container {
+  width: 100%;
+}
+.App-container-title {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 20px;
+  width: 100%;
+  border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+}
+.App-container-title h1 {
+  font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+/*|||*/
+@media (min-width: 576px) {
+  .App-container {
+    max-width: 536px;
+  }
+}
+/*---------*/
+@media (min-width: 768px) {
+  .App-container {
+    max-width: 728px;
+  }
+}
+/*---------*/
+@media (min-width: 992px) {
+  .App-container {
+    max-width: 952px;
+  }
+  .App-container-title {
+    text-align: start;
+    width: 55%;
+  }
+}
+/*---------*/
+@media (min-width: 1200px) {
+  .App-container {
+    max-width: 1160px;
+  }
+  .App-container-title {
+    text-align: start;
+    width: 55%;
+  }
+}
+/*---------*/
+@media (min-width: 1400px) {
+  .App-container {
+    max-width: 1360px;
+  }
+  .App-container-title {
+    text-align: start;
+    width: 55%;
+  }
+}

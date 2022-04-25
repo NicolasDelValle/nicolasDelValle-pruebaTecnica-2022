@@ -21,6 +21,7 @@ function Character() {
       const character = await getCharacter(id);
       setCharacter(character.data);
     };
+
     character();
   }, []);
 

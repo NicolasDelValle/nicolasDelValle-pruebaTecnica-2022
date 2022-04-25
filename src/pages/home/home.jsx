@@ -17,7 +17,9 @@ function Home() {
       const characters = await getCharacters(page);
       dispatch(characterActions.fillCharacters(characters.data.results));
     };
-    handleCoso();
+    if (characters === null) {
+      handleCoso();
+    }
   }, []);
 
   const handleChangePage = async (page) => {
